@@ -1,5 +1,6 @@
 name: "Terraform"
 
+# このWorkflowはmainにプッシュされた時か、マージリクエストの時に動く
 on:
   push:
     branches:
